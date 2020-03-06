@@ -1,4 +1,4 @@
-# A simple Node, Babel , Typescript
+# A simple Node, Babel , Typescript Starter
 
 For learning only
 
