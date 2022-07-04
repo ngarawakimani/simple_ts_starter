@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "Typescript Starter",
+      "type": "node",
+      "request": "launch",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "runtimeExecutable": "node",
+      "args": ["--inspect", "${workspaceFolder}/src/main.ts"],
+      "cwd": "${workspaceRoot}",
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/**",
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# A simple Node, Babel , Typescript Starter
+# A simple Node , Typescript Starter
 
 For learning only
 
@@ -6,22 +6,52 @@ For learning only
 
 Clone the project by running
 
-```
+```bash
 git clone https://github.com/ngarawakimani/simple_ts_starter.git
 ```
+
 ### Prerequisites
 
 then run the following command
 
-```
+```bash
 npm install
 
 ```
-### Running the code
 
-then run the following command
+### Running and testing the code
+
+#### Running dev server
+
+```bash
+npm run start:dev
 
 ```
+
+#### Running build server
+
+```bash
 npm run start
+
+```
+
+#### Testing
+
+```bash
+npm run test
+
+```
+
+#### Linting
+
+```bash
+npm run lint
+
+```
+
+#### Prettify
+
+```bash
+npm run prettier-format
 
 ```
